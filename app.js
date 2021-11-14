@@ -40,7 +40,7 @@ function display(weatherData) {
     feelsLike.textContent = `Feels Like: ${toCelsius(weatherData.main.feels_like)}`;
 }
 
-titleCase("HELLO tesTing sTuff");
+titleCase("This is just a test.");
 function titleCase(text) {
     console.log("BEFORE titleCase:", text);
     let result = text.split(" ")
